@@ -199,7 +199,11 @@ section {
 }
 
 input#zip {
-    max-width: 30%;
+    max-width: 25%;
+}
+
+select {
+    width: 100%;
 }
 
 #contact-information label {
