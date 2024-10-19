@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>The Code Review - Newsletter</title>
+</head>
+<body>
+    <header>
+        <h1>The code review</h1>
+    </header>
+
+<div class="container">
+    <section id="introduction">
+        <h2>Sign up for our newsletter</h2>
+        <p class="text-grey">Get the lastest news on how your code is doing right in your inbox</p>
+
+    </section>
+
+    <hr id="hr-thick">
+    <hr>
+
+    <section id="contact-information">
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div>
+                    <label for="name">Full name</label>
+                    <input type="text" id="name" name="user-name" placeholder="Required" required>
+                </div>
+
+                <div>
+                    <label for="email">Email Adress</label>
+                    <input type="email" id="email" name="user-email" placeholder="Required" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="user-phone" placeholder="E.g (555) 555-1234">
+                </div>
+
+                <div>
+                    <label for="adress1">Street Adress</label>
+                    <input type="text" id="adress1" name="user-adress1" placeholder="E.g 813 Howard Street Oswego">
+                </div>
+
+                <div>
+                    <label for="adress2">City</label>
+                    <input type="text" id="adress2" name="user-adress2" placeholder="E.g New York">
+                </div>
+
+                <div>
+                    <label for="adress3">State</label>
+                    <select id="adress3" name="user-adress2">
+                        <option>Choose state</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" name="user-zip" placeholder="E.g 13126">
+                </div>
+
+            </fieldset>
+    </section>
+
+    <hr>
+
+    <section id="newsletter">
+            <fieldset>
+                <legend>Newsletter</legend>
+                <div class="form-group">
+                    <p>Select the newsletter you would like to receive</p> 
+                    <div>
+                        <input type="checkbox" id="html" name="html-news" value="HTML News">
+                        <label for="html">HTML News</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="css" name="css-news" value="CSS News">
+                        <label for="css">CSS News</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="javascript" name="javascipt-news" value="Javascript News">
+                        <label for="javascript">Javascript News</label>
+                    </div>
+                </div><!--form-group-->
+            
+                <div class="form-group">
+                    <p>Newsletter format</p>
+                    <div>
+                        <input type="radio" id="plainhtml" name="format" value="Plain HTML" />
+                        <label for="plainhtml">Plain HTML</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="plaintext" name="format" value="Plain Text" />
+                        <label for="plaintext">Plain Text</label>
+                    </div>
+                </div><!--/form-group-->
+
+                    <label for="topics">Other topics you'd like to hear about</label>
+                    <textarea id="topics" name="other-topics" placeholder="E.g I would like to hear more about jquery"></textarea>
+
+                <button type="submit">Sign up</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>Copyright The Code Review</p>
+    </footer>
+</div><!--/container-->  
+</body>
+</html>
