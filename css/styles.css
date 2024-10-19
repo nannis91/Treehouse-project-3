@@ -46,6 +46,7 @@ section {
 fieldset {
     display: flex;
     flex-direction: column;
+    margin: 2rem 0;
 }
 
 hr {
@@ -139,6 +140,7 @@ h2, legend {
 p {
     font-weight: 300;
     line-height: 1.5;
+    margin-bottom: .5rem;
 }
 
 label {
